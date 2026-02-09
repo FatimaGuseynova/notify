@@ -1,0 +1,350 @@
+/* header */
+* {
+    box-sizing: border-box;
+}
+
+.bg-color-green {
+    background-color: #2dcb71;
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+    width: 100vw;
+}
+
+.bg-image {
+    background: url("../img/59b1b728-b0d7-42a5-a6bf-79100a298ba8.jpg")center/cover;
+    height: 89vh;
+    width: 100vw;
+}
+
+.full-header {
+    display: flex;
+    align-items: flex-end;
+    height: 89vh;
+    line-height: 0;
+    font-size: larger;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.header h1 {
+    color: #ffffff;
+    font: 400 60px "Pacifico";
+    margin-bottom: 20px;
+}
+
+.header-image img {
+    height: 550px;
+    object-fit: cover;
+}
+
+.header span {
+    color: #2dcb71;
+}
+
+.header p {
+    line-height: 36px;
+    color: #ffffff;
+    font: 500 24px "Helvetica Neue";
+    margin-bottom: 30px;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.header a {
+    color: #848484;
+    background-color: #00000080;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 40px;
+    padding: 10px;
+    font-size: 30px;
+    transition: .4s;
+}
+
+.header a:hover {
+    background-color: #2dcb71;
+    color: #fff;
+
+}
+
+
+
+/* icons */
+.conteiner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card i {
+    background-color: #2dcb71;
+    color: #fff;
+    width: 98px;
+    height: 98px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card h2 {
+    color: #000;
+    font: 600 22px "Raleway", sans-serif;
+    margin-bottom: 25px;
+}
+
+.card p {
+    color: #848484;
+    font: 400 16px "Helvetica Neue";
+    line-height: 26px;
+}
+
+
+/* video section */
+.bg-color {
+    background-color: #e3e3e3;
+    padding: 55px 0;
+}
+
+.video-section-full {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text h2 {
+    font: 600 22px "Raleway";
+    color: #222222;
+    margin-bottom: 25px;
+
+}
+
+.text p {
+    line-height: 26px;
+    color: #848484;
+    font: 400 16px "Helvetica Neue";
+    margin-bottom: 25px;
+}
+
+.text input {
+    height: 50px;
+    width: 90%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-color: transparent;
+    font: 400 18px "Helvetica Neue";
+    color: #848484;
+}
+
+.text a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2dcb71;
+    padding: 16px 30px;
+    font: 700 22px "Raleway";
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+}
+
+.video-section {
+    border-radius: 15px;
+    overflow: hidden;
+    line-height: 0;
+    /* Чтобы не было зазоров */
+}
+
+video {
+    width: 80%;
+}
+
+
+.photos {
+    padding: 60px 0;
+}
+
+.photos p {
+    line-height: 30px;
+    color: #848484;
+    font-style: italic;
+    text-align: center;
+    font: 400 18px "Helvetica Neue";
+    margin-bottom: 20px;
+}
+
+.photos h3 {
+    color: #2e2e2e;
+    text-align: center;
+    font: 700 18px "Raleway";
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+}
+
+
+.image {
+    width: 3%;
+    height: 60px;
+    overflow: hidden;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo img {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.photo {
+    margin: 50px 0;
+}
+
+.image {
+    background: url("../img/23.png.webp")center/cover;
+    transition: .4s;
+    margin: 0 5px;
+}
+
+
+.image[type="color"] {
+    background: linear-gradient(to right, #ffffff 30%, #ffffff71 50%), url("../img/23.png.webp")center/cover;
+}
+
+.image[type="color1"] {
+    background: linear-gradient(to left, #ffffff 30%, #ffffff71 50%), url("../img/23.png.webp")center/cover;
+}
+
+.image:hover {
+    background: linear-gradient(#2dcb716b, #2fd2763e), url("../img/23.png.webp")center/cover;
+}
+
+.photos h2 {
+    color: #000000;
+    text-align: center;
+    font: 600 24px "Raleway";
+    margin-bottom: 15px;
+}
+
+.photos ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.photos li a {
+    color: white;
+    background-color: #848484;
+    width: 25px;
+    height: 35px;
+    font: 17px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.photos li a:hover {
+    background-color: #2dcb71;
+}
+
+/* footer */
+
+.navbar {
+    color: #848484;
+    font: 400 16px "Helvetica Neue";
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width:930px) {
+    .header-image {
+        display: none;
+    }
+    .full-header {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+ }
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video-section-full {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .cards{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 630px){
+    .navbar ul{
+        flex-direction: column;
+        gap: 20px;
+        width: 90vw;
+    }
+    .image:nth-child(2),.image:nth-child(10),.image:nth-child(9),.image:nth-child(8),.image:nth-child(6),.image:nth-child(7), .image:nth-child(5), .image:nth-child(4), .image:nth-child(3){
+        display: none;
+    }
+    .image{
+        width: 100%;
+    }
+}
