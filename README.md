@@ -35,7 +35,7 @@ A stylish, responsive landing page template featuring a clean UI, creative typog
 Clone the repository:
 
 ## Bash
-```git clone [https://github.com/your-username/creative-landing-page.git](https://github.com/your-username/creative-landing-page.git)```
+git clone https://github.com/your-username/creative-landing-page.git
 
 ## Launch the project:
 Simply open index.html in your preferred web browser.
